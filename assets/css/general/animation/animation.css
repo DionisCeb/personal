@@ -51,7 +51,7 @@
   }
 
 
-
+/* Define the 3D swinging animation */
   @keyframes swing3d {
     0% {
         transform: perspective(500px) translateZ(0);
@@ -75,4 +75,17 @@
     animation: swing3d 3s infinite; /* Adjust the duration as needed */
     transform-style: preserve-3d; /* Ensures 3D transformations are preserved */
     display: inline-block; /* Ensures transform works correctly */
+}
+
+
+
+
+/* Define the fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

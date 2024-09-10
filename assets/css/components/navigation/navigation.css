@@ -6,6 +6,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 30px 0px;
+    animation: fadeIn 1s ease-in-out forwards; /* Duration and easing function */
+    opacity: 0;
 }
 
 

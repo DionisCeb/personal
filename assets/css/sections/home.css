@@ -1,21 +1,29 @@
 .intro-description-section {
     width: 40%;
+    animation: fadeIn 1.2s ease-in-out forwards; /* Duration and easing function */
+    opacity: 0;
 }
 
 
 .intro-img-section {
     width: 60%;
+    animation: fadeIn 5.7s ease-in-out forwards; /* Duration and easing function */
+    opacity: 0;
 }
 
 /*intro-title*/
 .intro-title {
     font-size: var(--large-title);
     font-weight: bold;
+    animation: fadeIn 2s ease-in-out forwards; /* Duration and easing function */
+    opacity: 0;
 }
 
 
 .intro-subtitle {
     font-size: 40px;
+    animation: fadeIn 1.3s ease-in-out forwards; /* Duration and easing function */
+    opacity: 0;
 }
 .intro-subtitle .name{
     color: white;
@@ -24,6 +32,8 @@
 
 .intro-slogan {
     font-size: 30px;
+    animation: fadeIn 1.4s ease-in-out forwards; /* Duration and easing function */
+    opacity: 0;
 }
 
 
@@ -32,6 +42,8 @@
     color: orange;
     font-weight: bold;
     font-size: 30px;
+    animation: fadeIn 4s ease-in-out forwards; /* Duration and easing function */
+    opacity: 0;
 }
 
 
@@ -45,7 +57,7 @@
 }
 
 .intro-img img {
-    opacity: 80%;
+    opacity: 90%;
     display: flex;
     border-radius: 50%;
     object-fit: cover;
@@ -58,15 +70,26 @@
     color: orange;
 }
 
+/*btn-icons animation*/
+
+.intro-description-section .btn-icon{
+    animation: fadeIn 3s ease-in-out forwards; /* Duration and easing function */
+    opacity: 0;
+}
+
 /*social-icons*/
 .social-icons div {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
+    animation: fadeIn 4.2s ease-in-out forwards; /* Duration and easing function */
+    opacity: 0;
 }
 
 .social-icons img {
     transition: var(--transition-all);
+    animation: fadeIn 5s ease-in-out forwards; /* Duration and easing function */
+    opacity: 0;
 }
 
 .social-icons img:hover {
