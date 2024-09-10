@@ -1,0 +1,63 @@
+.flex {
+    display: flex;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-al {
+    display: flex;
+    align-items: center;
+}
+
+.flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.structure {
+    width: 80%;
+}
+
+
+
+/*height*/
+.height100 {
+    height: 100dvh;
+}
+.height90 {
+    height: 90dvh;
+}
+.height80 {
+    height: 80dvh;
+}
+.height70 {
+    height: 70dvh;
+}
+
+
+
+
+/*gap*/
+.gap50 {
+    gap: 50px;
+}
+.gap40 {
+    gap: 40px;
+}
+.gap30 {
+    gap: 30px;
+}
+.gap20 {
+    gap: 20px;
+}
+.gap10 {
+    gap: 10px;
+}

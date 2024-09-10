@@ -1,0 +1,11 @@
+@import url(utils/utils.css);
+@import url(variables/variables.css);
+@import url(rules/rules.css);
+@import url(typograpghy/typo.css);
+@import url(animation/animation.css);
+
+body {
+    background: var(--main-bg);
+    min-height: 100dvh;
+}
+

@@ -1,0 +1,68 @@
+@import url(hover.css);
+
+
+
+/* Define keyframes for the left and right rotation */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% { 
+        transform: rotate(-45deg); /* Rotate left */
+    }
+    50% { 
+        transform: rotate(25deg); /* Return to the original position */
+    }
+    100% { 
+        transform: rotate(0deg); /* Return to the original position */
+    }
+}
+
+
+.hi-img img {
+    animation: rotate 1.5s infinite ease-in-out;
+    transform-origin: center; /* Pivot the rotation from the center */
+}
+
+
+
+/*TYPING-ANIMATION*/
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+/*   .intro-slogan .change-slogan p, */
+  .intro-subtitle .name p {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+
+
+  .change-slogan p {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 1.2em; /* Adjust to match the height */
+    animation: changeText 6s infinite; /* Apply the animation */
+}
+
+@keyframes changeText {
+    0% { transform: translateY(0); }
+    33% { transform: translateY(-100%); }
+    66% { transform: translateY(-200%); }
+    100% { transform: translateY(0); }
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script type="module" src="assets/js/main.js" defer></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <main class="home-page">
+        <header class="flex-center">
+            <div class="structure">
+                <nav class="navigation">
+                    <div class="logo-nav">
+                        <p class="logo-title">DM</p>
+                    </div>
+                    <div class="links-main">
+                        <a href="">about</a>
+                        <a href="">projects</a>
+                        <a href="">blog</a>
+                        <a href="">why me?</a>
+                    </div>
+                    <div class="btn-wrapper flex">
+                        <a class="btn btn-main" href="">Contact me</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="flex-center">
+            <div class="structure">
+                <div class="intro flex-al gap50 height80">
+                    <section class="intro-description-section flex-col gap40 item">
+                        <div class="intro-desc">
+                            <div class="intro-side flex-col gap10">
+                                <div class="intro-title flex-al">
+                                    Welcome,
+                                    <span class="icon hi-img">
+                                        <img src="assets/img/icons/welcome/hi.png" alt="Welcome Image Icon">
+                                    </span>
+                                </div>
+                                <div class="intro-subtitle flex gap20">
+                                    It's me, <span class="name"><p>Dionis</p></span>
+                                </div>
+                                <div class="intro-slogan flex gap10">
+                                    And I'm a <span class="change-slogan">Web Developer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="intro-buttons-wrapper flex-col gap20">
+                            <div class="btn-wrapper">
+                                <a class="btn btn-icon" href="assets/docs/CV.pdf"><span><i class="fa-solid fa-download"></i></span>Download CV</a>
+                            </div>
+                            <div class="btn-wrapper">
+                                <a class="btn btn-icon btn-no-bg" href=""><span><i class="fa-regular fa-address-book"></i></span> Contact me</a>
+                            </div>
+                        </div>
+                        <div class="intro-socials flex-col gap20">
+                            <p>I'm here,</p>
+                            <div class="social-icons flex-al gap20">
+                                <a href="https://www.instagram.com/"><img src="assets/img/icons/socials/instagram.png" alt="Instagram-icon" class="icon icon-social"></a>
+                                <a href="https://www.linkedin.com/in/dioniscebanu/"><img src="assets/img/icons/socials/linkedin.png" alt="Linkedin-icon" class="icon icon-social"></a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="intro-img-section flex item">
+                        <div class="intro-img">
+                            <img src="assets/img/personal/me-london.jpg" alt="Personal Image">
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </main>
+    <script>
+         // Define the texts to rotate through
+         const texts = [
+            "Web Developer",
+            "Web Designer",
+            "Backend Developer"
+        ];
+
+        // Select the span element
+        const sloganElement = document.querySelector('.change-slogan');
+
+        // Counter for the current text index
+        let currentIndex = 0;
+
+        // Function to change the text
+        function changeText() {
+            // Update the text content of the span
+            sloganElement.textContent = texts[currentIndex];
+            // Increment the index, looping back to 0 if needed
+            currentIndex = (currentIndex + 1) % texts.length;
+        }
+
+        // Change text every 1 second
+        setInterval(changeText, 2000);
+    </script>
+</body>
+</html>

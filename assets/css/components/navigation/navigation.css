@@ -1,0 +1,33 @@
+:root {
+    --nav-font-size: 20px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+
+.logo-nav {
+    color: #1c2294;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+/*links-main nav*/
+.links-main {
+    display: flex;
+    gap: 30px;
+}
+
+.links-main a {
+    color: white;
+    padding: 5px;
+    font-size: var(--nav-font-size);
+}
+
+
+
