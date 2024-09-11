@@ -1,4 +1,5 @@
 @import url(hover.css);
+@import url(sliders/sliders.css);
 
 
 
@@ -37,18 +38,18 @@
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: orange; }
   }
 
-/*   .intro-slogan .change-slogan p, */
-  .intro-subtitle .name p {
+/*   .intro-slogan */
+/* .dynamic-writing, */
+ .dynamic-writing {
     overflow: hidden;
     border-right: .15em solid orange;
     white-space: nowrap;
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
-  }
+}
 
 
 /* Define the 3D swinging animation */

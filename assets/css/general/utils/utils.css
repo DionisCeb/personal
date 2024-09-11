@@ -30,17 +30,33 @@
 
 /*height*/
 .height100 {
-    height: 100dvh;
+    min-height: 100dvh;
 }
 .height90 {
-    height: 90dvh;
+    min-height: 90dvh;
 }
 .height80 {
-    height: 80dvh;
+    min-height: 80dvh;
 }
 .height70 {
-    height: 70dvh;
+    min-height: 70dvh;
 }
+.height60 {
+    min-height: 60dvh;
+}
+.height50 {
+    min-height: 50dvh;
+}
+.height40 {
+    min-height: 40dvh;
+}
+.height30 {
+    min-height: 30dvh;
+}
+.height20 {
+    min-height: 20dvh;
+}
+
 
 
 
@@ -61,3 +77,14 @@
 .gap10 {
     gap: 10px;
 }
+.gap5 {
+    gap: 5px;
+}
+
+
+@media only screen and (max-width: 950px) {
+    .structure {
+        width: 100%;
+        padding: 0px 20px;
+    }
+  }

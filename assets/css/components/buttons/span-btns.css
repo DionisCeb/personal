@@ -3,7 +3,7 @@
     border-radius: 5px;
     padding: 10px;
     transition: width 0.3s ease; /* Add transition for smooth animation */
-    width: 20px; /* Initial width, adjust as needed */
+    width: 40px; /* Initial width, adjust as needed */
 }
 
 .btn-icon:hover .btn-span-icon{
