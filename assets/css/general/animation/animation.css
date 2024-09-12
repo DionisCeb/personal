@@ -43,7 +43,6 @@
 /*   .intro-slogan */
 /* .dynamic-writing, */
  .dynamic-writing {
-    overflow: hidden;
     border-right: .15em solid orange;
     white-space: nowrap;
     animation: 
