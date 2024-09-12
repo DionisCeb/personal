@@ -7,13 +7,13 @@ toggleBtn.onclick = function () {
         dropDownMenu.classList.remove("open");
         dropDownMenu.classList.add("close");
         toggleBtnImgs.forEach((img) => {
-            img.src = "./assets/img/icons/nav/nav_bar.svg";
+            img.src = "../../personal/assets/img/icons/nav/nav_bar.svg";
         });
     } else {
         dropDownMenu.classList.add("open");
         dropDownMenu.classList.remove("close");
         toggleBtnImgs.forEach((img) => {
-            img.src = "./assets/img/icons/nav/close.svg";
+            img.src = "https://img.icons8.com/?size=100&id=46&format=png&color=000000";
         });
     }
 };
