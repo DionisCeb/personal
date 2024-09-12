@@ -112,7 +112,7 @@
     .intro {
         flex-direction: column;
         justify-content: center;
-        height: 100dvh;
+        min-height: 100dvh;
     }
     .item:nth-child(1) {
         order: 2; /* Move this item to the last position */
