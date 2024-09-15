@@ -23,6 +23,7 @@
 .hi-img img {
     animation: rotate 1.5s infinite ease-in-out;
     transform-origin: center; /* Pivot the rotation from the center */
+    min-width: 50px;
 }
 
 

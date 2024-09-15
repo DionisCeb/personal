@@ -64,6 +64,7 @@
     border-radius: 50%;
     object-fit: cover;
     border-bottom: 10px solid #8583dc;
+    box-shadow: var(--btn-shadow);
 }
 
 
@@ -84,6 +85,7 @@
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
+    box-shadow: var(--btn-shadow);
     animation: fadeIn 4.2s ease-in-out forwards; /* Duration and easing function */
     opacity: 0;
 }

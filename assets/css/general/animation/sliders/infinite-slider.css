@@ -80,8 +80,7 @@
     display: inline-block;
     font-size: var(--font-size-large);
     line-height: var(--line-height-large);
-    text-stroke-width: 1px;
-    text-stroke-color: var(--primary-text-color); /* Red stroke for text */
+    
     font-weight: 700;
     font-family: var(--font-secondary); /* Secondary font for a distinct style */
     color: var(--primary-text-color); /* Primary red color */
