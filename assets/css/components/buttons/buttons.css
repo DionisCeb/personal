@@ -2,6 +2,7 @@
 :root{
     --btn-gradient: linear-gradient(90deg, #164a99 0%, #45E2C6 100%);
     --transparent-btn: rgba(255, 255, 255, 0.1);
+    --btn-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn {
@@ -14,6 +15,7 @@
     font-size: 20px;
     font-weight: bold;
     transition: var(--transition-all);
+    box-shadow: var(--btn-shadow);
 }
 
 .btn:hover {

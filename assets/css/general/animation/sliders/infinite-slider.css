@@ -1,8 +1,6 @@
 :root {
     --scrollbar-width: 6px;
-    --scrollbar-thumb-bg: #4CAF50; /* Green for scroll thumb */
     --scrollbar-track-bg: #2c3e50; /* Darker background for scrollbar track */
-    --font-primary: "Poppins", sans-serif; /* Changed to a modern font */
     --font-secondary: "Roboto", sans-serif; /* A more techy look */
     --font-size-large: 50px; /* Reduced large font size */
     --font-size-medium: 30px;
@@ -13,18 +11,11 @@
     --secondary-text-color: #535353; /* Muted blue for secondary text */
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--font-primary);
-    scroll-behavior: smooth;
-}
+
 
 .header_full_sec {
     margin: 50px 0px;
     background-color: var(--primary-bg-color); /* Dark background for header section */
-    padding: 20px 0;
 }
 
 .overflow-hidden {
@@ -80,8 +71,6 @@
     display: inline-block;
     font-size: var(--font-size-large);
     line-height: var(--line-height-large);
-    text-stroke-width: 1px;
-    text-stroke-color: var(--primary-text-color); /* Red stroke for text */
     font-weight: 700;
     font-family: var(--font-secondary); /* Secondary font for a distinct style */
     color: var(--primary-text-color); /* Primary red color */
