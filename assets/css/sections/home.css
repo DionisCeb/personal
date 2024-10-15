@@ -22,18 +22,18 @@
 
 .intro-subtitle {
     font-size: 40px;
+    color: var(--general-light);
     animation: fadeIn 1.3s ease-in-out forwards; /* Duration and easing function */
     opacity: 0;
     white-space: nowrap;
 }
-.intro-subtitle .name{
-    color: white;
-}
+
 
 
 .intro-slogan {
     font-size: 30px;
     white-space: nowrap;
+    color: var(--general-light);
     animation: fadeIn 1.4s ease-in-out forwards; /* Duration and easing function */
     opacity: 0;
 }
