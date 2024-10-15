@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <title>Portfolio</title>
-  <script type="module" crossorigin src="/personal/assets/index-C9wezHTt.js"></script>
-  <link rel="stylesheet" crossorigin href="/personal/assets/index-y2HEmaGf.css">
+  <script type="module" crossorigin src="/personal/assets/index-BjBYahbg.js"></script>
+  <link rel="stylesheet" crossorigin href="/personal/assets/index-Cs_uJLjs.css">
 </head>
 <body>
     <main class="home-page">
@@ -47,13 +47,14 @@
                         <div class="intro-desc">
                             <div class="intro-side flex-col gap10">
                                 <div class="intro-title flex-al">
-                                    <span class="dynamic-writing">Welcome</span>
+                                    <span class="gradient-text">Welcome</span>
+
                                     <span class="icon hi-img">
                                         <img src="/personal/assets/hi-DFR9it4A.png" alt="Welcome Image Icon">
                                     </span>
                                 </div>
                                 <div class="intro-subtitle flex-al gap10">
-                                    It's me, <span class="name">Dionis</span>
+                                    It's me, <span class="name gradient-text">Dionis</span>
                                 </div>
                                 <div class="intro-slogan flex-al gap10">
                                     <p>And I'm a <span class="change-slogan">Web Developer</span></p>
@@ -62,8 +63,10 @@
                         </div>
                         <div class="intro-buttons-wrapper flex-col gap20">
                             <div class="btn-wrapper">
-                                <a class="btn btn-icon" href="assets/docs/cv-english.pdf"><span class="btn-span-icon"><i class="fa-solid fa-download"></i></span>Download CV</a>
+                                <a class="btn btn-icon" href="#cv-section"><span class="btn-span-icon"><i class="fa-solid fa-download"></i></span>Download CV</a>
                             </div>
+                            
+                            
                             <div class="btn-wrapper">
                                 <a class="btn btn-icon btn-no-bg" href=""><span class="btn-span-icon"><i class="fa-regular fa-address-book"></i></span> Contact me</a>
                             </div>
@@ -174,6 +177,29 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex-center height50" id="cv-section">
+        <div class="structure">
+            <div class="cv-section-img">
+                <img src="/personal/assets/pexels-cottonbro-4065876-CnE6myIy.jpg" alt="profesional photo" srcset="Photo by cottonbro studio: https://www.pexels.com/photo/person-in-beige-long-sleeve-shirt-using-macbook-pro-4065876/">
+            </div>
+            <div class="cv-section-content flex-col gap20">
+                <h1 class="gradient-text">Discover me</h1>
+                <p>Take a deeper look into my career path, expertise, and achievements by viewing my CV. Discover the skills and experience that make me stand out. Simply click the button below to see my full qualifications and accomplishments in detail.</p>
+                <div class="btn-wrapper">
+                    <a class="btn btn-icon" href="#" id="showPopup"><span class="btn-span-icon"><i class="fa-solid fa-download"></i></span>Download CV</a>
+                </div>
+            </div>
+            
+            <!-- Pop-up Modal -->
+            <div id="popup" class="popup-overlay">
+                <div class="popup-content">
+                    <span class="close-btn" id="closePopup">&times;</span>
+                    <img src="/personal/assets/cv-english-DlIAUBKS.png" alt="CV" class="popup-image">
                 </div>
             </div>
         </div>
