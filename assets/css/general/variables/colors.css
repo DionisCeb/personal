@@ -1,3 +1,4 @@
 :root {
-    --main-bg: linear-gradient(180deg, #6A81F9 0%, #D68A8A 100%);
+    --main-bg: linear-gradient(180deg, #e7e7e7 0%, #2d2d2d 100%);
+    --general-light: white;
 }

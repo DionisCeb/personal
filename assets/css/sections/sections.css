@@ -1,1 +1,8 @@
 @import url(home.css);
+@import url(cv-section.css);
+
+
+
+section {
+    padding: 20px 0px;
+}
