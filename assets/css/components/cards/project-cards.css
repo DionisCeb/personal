@@ -44,7 +44,7 @@
 }
 
 .flip-card-back {
-    background-color: rgb(185, 161, 178);
+    background: var(--btn-gradient);
     color: white;
     transform: rotateY(180deg);
     display: flex;
@@ -52,6 +52,13 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
+}
+
+.flip-card-back{
+    color: white;
+}
+.project-card-source a {
+    color: white;
 }
 
 .project-card-description,
